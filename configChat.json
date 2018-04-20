@@ -1,0 +1,33 @@
+{
+	"prefix": "!",
+	"token": "",
+	"mysql": {
+		"hostname": "localhost",
+		"user": "root",
+	  	"psw": "jason",
+	  	"dbname": "discordBot"
+	},
+	"help": {
+		"text": "COMMANDS\n\n !avatar = What is my profil picture ?\n ==== CALULS ==== \n\n!add 1 1 .. = 2\n\n!sub 2 1 = 1\n\n!mult 2 2 .. = 4 \n\n!dvd 3 1 .. = 3 \n\n==== CONST ==== \n\n!gold What is Golden Ratio ?\n\n!pi What is Pi ?\n\n==== TWITTER ====\n\n!nwtw [text]: Tweet the [text]\n\n!twlast [user]: Get the lastest tweet or retweet of [user]"
+	},
+	"const": {
+		"gold" : "The Golden ratio is a special number found by dividing a line into two parts so that the longer part(a) divided by the smaller part(b) is also equal to the whole length divided by the longer part. It is often symbolized using phi, after the 21st letter of the Greek alphabet.Historically, the number can be seen in the architecture of many ancient creations, like the Great Pyramids and the Parthenon. In the Great Pyramid of Giza, the length of each side of the base is 756 feet with a height of 481 feet. The ratio of the base to the height is roughly 1.5717, which is close to the Golden ratio. \nIn an equation form, it looks like this:\n\na/b = (a+b)/a = 1.6180339887498948420 …",
+		"pi": {
+			"text": "pi(π) is the ratio of the circumference of a circle to its diameter. In other words, pi equals the circumference divided by the diameter (π = c/d). Conversely, the circumference is equal to pi times the diameter (c = πd). No matter how large or small a circle is, pi will always work out to be the same number\n\n pi(π) = 3.14159 26535 89793 23846 26433 83279 50288 41971 69399 37510 58209 74944 59230 78164 06286 20899 86280 34825 34211 7067 ....",
+			"nb": "3.141592653589793238462643383279502884197169399375105820974944592307816406286208998628034825342117067"
+		}
+	},
+	"alert": {
+		"help": "\n!newAlert [Title]>=3 characters {[Content]>=5 characters} = to set a new alert\n\n!alerts list = to list your alerts\n\n{} = optional"
+	},
+	"twitter": {
+		"consumer_key": "",
+		"consumer_secret": "",
+		"access_token_key": "",
+		"access_token_secret": ""
+	},
+	"twitch": {
+		"id": ""
+	}
+}
+
