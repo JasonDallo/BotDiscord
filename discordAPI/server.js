@@ -21,14 +21,14 @@ module.exports = {
 		// 	hostname: 'discordapp.com',
 		// 	path: '/oauth2/applications/@me', //+ id  ,
 		// 	method: 'GET',
-		// 	headers: {"Authorization":"Bot Mjg2ODk4NTk3OTQ4MTYyMDUw.C5zmqg.Vg56IDzW4XJgA65uQBUEn37oJBA"}
+		// 	headers: {"Authorization":"Bot }
 		// };
 
 		// https.get(options, function(res){
 		// 	console.log(res.statusCode)
 		// })
 
-		Client.login('MjkwMTQ3OTIzMDUwNjI3MDcy.C6Wy8Q.L0hf-nZaVVsLzLwW1_pKijPhYk8')
+		Client.login('')
 	}
 	
 };
